@@ -1,0 +1,44 @@
+baseURL = ""
+languageCode = "en-us"
+title = "@BRO3886 on GitHub"
+
+theme = "Papermod"
+# to render images
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Siddhartha Varma"
+description = "A site to showcase all my projects on GitHub. Generated using Katamari"
+env = "production	"
+hideSummary = "true"
+title = "BRO3886's Projects"
+# title, content for papermod theme
+[params.homeInfoParams]
+Content = "Generated using katamari - https://sidv.dev/katamari"
+Title = "BRO3886's Projects on GitHub 👨‍💻"
+
+[params.fuseOpts]
+distance = 1000
+isCaseSensitive = false
+keys = ["title", "content"]
+location = 0
+minMatchCharLength = 0
+shouldSort = true
+threshold = 0.4
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/BRO3886"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://sidv.dev/twt"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://instagram.com/sidv_22"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://sidv.dev/lnkdn"
